@@ -135,6 +135,7 @@ function computerMove () {
       // computer marks a random EMPTY cell
       random = Math.ceil(Math.random() * emptyCells.length) - 1;
       emptyCells[random].innerHTML = computer;
-      
+     
+     check(); 
 
 }
